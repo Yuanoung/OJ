@@ -1,6 +1,6 @@
 //
 // Created by yuanoung on 18-3-22.
-//
+// http://poj.org/problem?id=2253
 
 #include <cstdio>
 #include <cstring>
@@ -10,21 +10,21 @@
 #include <algorithm>
 
 #define mem(a, b) memset(a,b,sizeof(a))
-#define maxnum 300
-#define inf 0x3f3f3f3f
+#define MAXNUM 300
+#define INF 0x3f3f3f3f
 using namespace std;
-int x[maxnum], y[maxnum], n;
-double map[maxnum][maxnum];
-double dis[maxnum];
-int vis[maxnum];
+int x[MAXNUM], y[MAXNUM], n;
+double map[MAXNUM][MAXNUM];
+double dis[MAXNUM];
+int vis[MAXNUM];
 
 void dj(int s) {
     mem(vis, 0);
     for (int i = 1; i <= n; i++)
-        dis[i] = inf;//这里最好别用memset
+        dis[i] = INF;//这里最好别用memset
     dis[s] = 0;
     for (int i = 1; i <= n; i++) {
-        int minn = inf, k;
+        int minn = INF, k;
         for (int j = 1; j <= n; j++)
             if (vis[j] == 0 && dis[j] < minn) {
                 k = j;
@@ -46,7 +46,7 @@ int main() {
             for (int j = i + 1; j <= n; j++)
                 map[i][j] = map[j][i] = sqrt(double(x[i] - x[j]) * (x[i] - x[j]) + double(y[i] - y[j]) * (y[i] - y[j]));
         dj(1);
-        printf("Scenario #%d\nFrog Distance = %.3lf\n\n", q++, dis[2]);
+        printf("Scenario #%d\nFrog Distance = %.3f\n\n", q++, dis[2]);
     }
     return 0;
 }

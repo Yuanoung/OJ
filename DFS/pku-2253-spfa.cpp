@@ -12,18 +12,18 @@
 #include <algorithm>
 
 #define mem(a, b) memset(a,b,sizeof(a))
-#define maxnum 300
-#define inf 0x3f3f3f3f
+#define MAXNUM 300
+#define INF 0x3f3f3f3f
 using namespace std;
-int x[maxnum], y[maxnum], n;
-double map[maxnum][maxnum];
-double dis[maxnum];
-int vis[maxnum];
+int x[MAXNUM], y[MAXNUM], n;
+double map[MAXNUM][MAXNUM];
+double dis[MAXNUM];
+int vis[MAXNUM];
 
 void spfa() {
     queue<int> q;
     for (int i = 1; i <= n; i++)
-        dis[i] = inf;
+        dis[i] = INF;
     dis[1] = 0;
     for (int i = 1; i <= n; i++)
         vis[i] = 0;
@@ -54,7 +54,7 @@ int main() {
             for (int j = i + 1; j <= n; j++)
                 map[i][j] = map[j][i] = sqrt(double(x[i] - x[j]) * (x[i] - x[j]) + double(y[i] - y[j]) * (y[i] - y[j]));
         spfa();
-        printf("Scenario #%d\nFrog Distance = %.3lf\n\n", q++, dis[2]);
+        printf("Scenario #%d\nFrog Distance = %.3f\n\n", q++, dis[2]);
     }
     return 0;
 }
