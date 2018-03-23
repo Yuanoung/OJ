@@ -18,7 +18,7 @@ void floyd() {
     for (int k = 1; k <= n; k++)
         for (int i = 1; i <= n; i++)
             for (int j = 1; j <= n; j++)
-                map[i][j] = min(map[i][j], max(map[i][k], map[k][j]));//许多通路中最长边中的最小边
+                map[i][j] = min(map[i][j], max(map[i][k], map[k][j])); //许多通路中最长边中的最小边
 }
 
 int main() {
