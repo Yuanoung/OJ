@@ -11,4 +11,7 @@ add_executable(OJ
 #        DFS/pku-2253-dijkstra.cpp
 #        DFS/pku-2253-floyd.cpp
 #        DFS/pku-2253-spfa.cpp
-        DFS/pku-1330.cpp DFS/pku-1330-lca.cpp)
+#        DFS/pku-1330.cpp
+#        DFS/pku-1330-lca.cpp
+#        基本算法/qsort.cpp
+        DP/pku-2663.cpp)
