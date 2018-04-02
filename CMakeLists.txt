@@ -14,4 +14,10 @@ add_executable(OJ
 #        DFS/pku-1330.cpp
 #        DFS/pku-1330-lca.cpp
 #        基本算法/qsort.cpp
-        DP/pku-2663.cpp)
+#        DP/pku-2663.cpp
+#        DP/hdu-2044.cpp
+#        DP/hdu-2045.cpp
+#        DP/hdu-2046.cpp
+#        DP/hdu-2047.cpp
+#        DP/hdu-2050.cpp
+        B-I-T/HDU-1166.cpp)
