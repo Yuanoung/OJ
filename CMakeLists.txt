@@ -19,6 +19,6 @@ add_executable(OJ
 #        DP/hdu-2045.cpp
 #        DP/hdu-2046.cpp
 #        DP/hdu-2047.cpp
-        DP/hdu-2050.cpp
+#        DP/hdu-2050.cpp
 #        B-I-T/HDU-1166.cpp
-        )
+        DP/hdu-2048.cpp)
