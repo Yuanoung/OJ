@@ -3,11 +3,11 @@
 //
 #include <iostream>
 using namespace std;
-long long data[10001] = {0, 2};
+long long data[10001] = {1, 2};
 
 int main() {
     for (int i = 2; i < 10001; i++)
-        data[i] = (i + 1) * (i + 1) - 1;
+        data[i] = data[i-1] + 4 * (i - 1) + 1;
     int cnt, n;
     cin >> cnt;
     while (cnt--) {
