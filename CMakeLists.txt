@@ -23,5 +23,12 @@ add_executable(OJ
 #        B-I-T/HDU-1166.cpp
 #        DP/hdu-2048.cpp
 #        DP/hdu-2049.cpp
-#        C语言程序设计练习/hdu-2013.cpp
-        C语言程序设计练习/hdu-2000.cpp)
+#        C-Exercise/hdu-2013.cpp
+#        C-Exercise/hdu-2000.cpp
+#        C-Exercise/hdu-2002.cpp
+#        C-Exercise/hdu-2003.cpp
+#        C-Exercise/hdu-2004.cpp
+#        C-Exercise/hdu-2005.cpp
+#        C-Exercise/hdu-2006.cpp
+        C-Exercise/hdu-2007.cpp
+        )
