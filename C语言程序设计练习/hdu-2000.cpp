@@ -6,17 +6,23 @@
 using namespace std;
 
 int main() {
-    char c[3];
-    while (cin >> c) {
-        for (int i = 0; i < 2; i++)
-            for (int j = 2; j > i; j--) {
-                if (c[j] < c[j - 1]) {
-                    char temp = c[j];
-                    c[j] = c[j - 1];
-                    c[j - 1] = temp;
-                }
-            }
-        cout << c[0] << " " << c[1] << " " << c[2] << endl;
+    char c1, c2, c3;
+    while (cin >> c1 >> c2 >> c3) {
+        if (c2 < c1) {
+            if (c3 >= c1)
+                cout << c2 << " " << c1 << " " << c3 << endl;
+            else if (c3 < c2)
+                cout << c3 << " " << c2 << " " << c1 << endl;
+            else
+                cout << c2 << " " << c3 << " " << c1 << endl;
+        } else {
+            if (c3 < c1)
+                cout << c3 << " " << c1 << " " << c2 << endl;
+            else if (c3 < c2)
+                cout << c1 << " " << c3 << " " << c2 << endl;
+            else
+                cout << c1 << " " << c2 << " " << c3 << endl;
+        }
     }
 
     return 0;
