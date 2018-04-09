@@ -30,5 +30,5 @@ add_executable(OJ
 #        C-Exercise/hdu-2004.cpp
 #        C-Exercise/hdu-2005.cpp
 #        C-Exercise/hdu-2006.cpp
-        C-Exercise/hdu-2007.cpp
-        )
+#        C-Exercise/hdu-2007.cpp
+        C-Exercise/hdu-2008.cpp)
