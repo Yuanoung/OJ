@@ -23,7 +23,6 @@ add_executable(OJ
 #        B-I-T/HDU-1166.cpp
 #        DP/hdu-2048.cpp
 #        DP/hdu-2049.cpp
-#        C-Exercise/hdu-2013.cpp
 #        C-Exercise/hdu-2000.cpp
 #        C-Exercise/hdu-2002.cpp
 #        C-Exercise/hdu-2003.cpp
@@ -35,4 +34,7 @@ add_executable(OJ
 #        C-Exercise/hdu-2009.cpp
 #        C-Exercise/hdu-2010.cpp
 #        C-Exercise/hdu-2011.cpp
-        C-Exercise/hdu-2012.cpp)
+#        C-Exercise/hdu-2012.cpp
+#        C-Exercise/hdu-2013.cpp
+
+        C-Exercise/hdu-2014.cpp C-Exercise/hdu-2015.cpp C-Exercise/hdu-2016.cpp)
