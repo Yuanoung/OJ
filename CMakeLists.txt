@@ -4,25 +4,10 @@ project(OJ)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(OJ
-#        DFS/pku-1970-dfs.cpp
-#        DFS/pku-1970.cpp
-#        DFS/pku-1979.cpp
-#        DFS/pku-2253-dfs.cpp
-#        DFS/pku-2253-dijkstra.cpp
-#        DFS/pku-2253-floyd.cpp
-#        DFS/pku-2253-spfa.cpp
-#        DFS/pku-1330.cpp
-#        DFS/pku-1330-lca.cpp
 #        基本算法/qsort.cpp
-#        DP/pku-2663.cpp
-#        DP/hdu-2044.cpp
-#        DP/hdu-2045.cpp
-#        DP/hdu-2046.cpp
-#        DP/hdu-2047.cpp
-#        DP/hdu-2050.cpp
+
 #        B-I-T/HDU-1166.cpp
-#        DP/hdu-2048.cpp
-#        DP/hdu-2049.cpp
+
 #        C-Exercise/hdu-2000.cpp
 #        C-Exercise/hdu-2002.cpp
 #        C-Exercise/hdu-2003.cpp
@@ -37,4 +22,45 @@ add_executable(OJ
 #        C-Exercise/hdu-2012.cpp
 #        C-Exercise/hdu-2013.cpp
 
-        C-Exercise/hdu-2014.cpp C-Exercise/hdu-2015.cpp C-Exercise/hdu-2016.cpp)
+#        DFS/pku-1970-dfs.cpp
+#        DFS/pku-1970.cpp
+#        DFS/pku-1979.cpp
+#        DFS/pku-2253-dfs.cpp
+#        DFS/pku-2253-dijkstra.cpp
+#        DFS/pku-2253-floyd.cpp
+#        DFS/pku-2253-spfa.cpp
+#        DFS/pku-1330.cpp
+#        DFS/pku-1330-lca.cpp
+
+#        DP/pku-2663.cpp
+#        DP/hdu-2044.cpp
+#        DP/hdu-2045.cpp
+#        DP/hdu-2046.cpp
+#        DP/hdu-2047.cpp
+#        DP/hdu-2050.cpp
+#        DP/hdu-2048.cpp
+#        DP/hdu-2049.cpp
+
+
+
+#        C-Exercise/hdu-2014.cpp
+#        C-Exercise/hdu-2015.cpp
+#        C-Exercise/hdu-2016.cpp
+        C-Exercise/hdu-2017.cpp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        )
